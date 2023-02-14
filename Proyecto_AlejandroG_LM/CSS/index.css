@@ -1,0 +1,551 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../IMG/FondoWeb.jpg);
+}
+#nav{
+    margin: 0 auto;
+    width: 1500px;
+    height: 1000px;
+    background-color: #24303c;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.clear{
+    clear: both;
+}
+.logocentral{
+    margin: 0 auto;
+   
+    
+    
+}
+.logopagina{
+    width: 400px;
+    height: 200px;
+    padding-left: 520px;
+    
+
+    
+}
+
+.video{
+    width: 560px;
+    height: 315px;
+    float: right;
+    padding: 70px;
+    padding-top: 200px;
+
+}
+#contenido{
+    height: 710px;
+    
+    
+}
+#cabeceraartist{
+    text-align: center;
+    
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #24303c;
+}
+
+#cajaartistas{
+    width: 600px;
+    height: 670px;
+    background-color:#fff ;
+    margin-left: 130px;
+    margin-top: 50px;
+    background-image: url(../IMG/FondoWeb.jpg);
+    
+}
+.capa{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(233, 150, 122, 0.315);
+    z-index: -1;
+    top: 0;left: 0;
+}
+/*Estilos para el encabezado*/
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;left: 0;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.container .primer-menu, .logo{
+    float: left;
+    line-height:100px;
+    
+
+}
+.container .primer-menu label{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    
+}
+.container .menu{
+    float: right;
+    line-height: 100px;
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+/*Fin de Estilos para el encabezado*/
+
+/*Menù lateral*/
+#primer-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+   
+    width: 100%;
+    height: 100vh;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.redessociales{
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
+    position: relative;
+    top: 5px;
+    
+    
+    
+}
+#primer-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 170px;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+#primer-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #c7c7c7;
+    background: #1f1f1f;
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*Menù lateral*/
+
+#cajaartistas nav a{
+    
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+    background-image: url(../IMG/FondoWeb.jpg);
+    margin :20px;
+    margin-left: 55px;
+    font-size: 20px; 
+    border-radius: 50px 70px 70px 50px;
+}
+
+
+
+#cajaartistas nav a:hover{
+    word-spacing: 10px;
+    background: #24303c;
+    
+}
+
+/*footer*/
+
+#festival-footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5em 0;
+}
+  
+#festival-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+  
+#festival-footer p {
+    margin: 0;
+}
+  
+#festival-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+#festival-footer ul li {
+    margin-left: 1.5em;
+}
+  
+#festival-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/*footer*/
+
+
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../IMG/FondoWeb.jpg);
+}
+#nav{
+    margin: 0 auto;
+    width: 1500px;
+    height: 1000px;
+    background-color: #24303c;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.clear{
+    clear: both;
+}
+.logocentral{
+    margin: 0 auto;
+   
+    
+    
+}
+.logopagina{
+    width: 400px;
+    height: 200px;
+    padding-left: 520px;
+    
+
+    
+}
+
+.video{
+    width: 560px;
+    height: 315px;
+    float: right;
+    padding: 70px;
+    padding-top: 200px;
+
+}
+#contenido{
+    height: 710px;
+    
+    
+}
+#cabeceraartist{
+    text-align: center;
+    
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #24303c;
+}
+
+#cajaartistas{
+    width: 600px;
+    height: 670px;
+    background-color:#fff ;
+    margin-left: 130px;
+    margin-top: 50px;
+    background-image: url(../IMG/FondoWeb.jpg);
+    
+}
+.capa{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(233, 150, 122, 0.315);
+    z-index: -1;
+    top: 0;left: 0;
+}
+/*Estilos para el encabezado*/
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;left: 0;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.container .primer-menu, .logo{
+    float: left;
+    line-height:100px;
+    
+
+}
+.container .primer-menu label{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    
+}
+.container .menu{
+    float: right;
+    line-height: 100px;
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+/*Fin de Estilos para el encabezado*/
+
+/*Menù lateral*/
+#primer-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+   
+    width: 100%;
+    height: 100vh;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.redessociales{
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
+    position: relative;
+    top: 5px;
+    
+    
+    
+}
+#primer-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 170px;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+#primer-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #c7c7c7;
+    background: #1f1f1f;
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*Menù lateral*/
+
+#cajaartistas nav a{
+    
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+    background-image: url(../IMG/FondoWeb.jpg);
+    margin :20px;
+    margin-left: 55px;
+    font-size: 20px; 
+    border-radius: 50px 70px 70px 50px;
+}
+
+
+
+#cajaartistas nav a:hover{
+    word-spacing: 10px;
+    background: #24303c;
+    
+}
+
+/*footer*/
+
+#festival-footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5em 0;
+}
+  
+#festival-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+  
+#festival-footer p {
+    margin: 0;
+}
+  
+#festival-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+#festival-footer ul li {
+    margin-left: 1.5em;
+}
+  
+#festival-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/*footer*/
+
+
+  
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+.Pregunta{
+    font-weight:bold ;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+.respuesta {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+.envio {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #24303c;
+    padding: 30px;
+    text-align: center;
+  }
+ 
+.caja {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 60%;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+.boton {
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.volver{
+    margin: auto;
+   }
